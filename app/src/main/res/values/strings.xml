@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">FindEatyuk!</string>
+    <string name="name_label_text">Pilih Lokasi Toko: </string>
+    <string name="nama_text">"Nama Anda: "</string>
+    <string name="enter_name_hint">Nama</string>
+    <string name="user_namesiji">Hello Ammar</string>
+    <string name="teks_lay1">Nama Restoran: </string>
+    <string name="Bekasi">Eatyuk! Bekasi</string>
+    <string name="lokasi">"Lokasi Titik: "</string>
+    <string name="search_om_map">Bekasi</string>
+
+    <string-array name="kota">
+        <item>Jakarta</item>
+        <item>Bogor</item>
+        <item>Depok</item>
+        <item>Tanggerang</item>
+        <item>Bekasi</item>
+    </string-array>
+    <string name="title_activity_main3">Main3Activity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="user_nameloro">Hello Ammar</string>
+    <string name="title_menu1">Pizza Paperoni</string>
+    <string name="isi_menu1">Pizza paperoni lezat dengan isian daging beef original ditambah saus italy yang membuat kelezatan maksimal di setiap gigitan!</string>
+    <string name="title_menu2">Spaghetti</string>
+    <string name="isi_menu2">Spaghetti dengan saus bolognise orginal khas Italy yang mmebuat rasanya oriental.</string>
+    <string name="title_menu3">Burgir</string>
+    <string name="isi_menu3">Burger istimewa, menu andalan restauran kita. Dengan isian beef australi original ditambah keju lapis yang membuat rasanya luar biasa.</string>
+    <string name="title_menu4">Beef Steak</string>
+    <string name="isi_menu4">Steak original dengan kualitas daging sapi terbaik.</string>
+    <string name="teks_order">Pizza Paperoni</string>
+    <string name="teks_price">Harga: Rp. 125.000</string>
+    <string name="teks_desk">Pepperoni pizza adalah pizza yang memiliki  topping daging pepperoni sapi asli. Di Italia, pepperoni disebut salame piccante (salami panas). Biasa menjadi bahan baku pizza di Amerika Serikat, yang sering mewakili 30% pelengkap. Pizza ini cocok untuk santap siang ataupun malam anda</string>
+    <string name="detail_order">"Order Detail: "</string>
+    <string name="detail_nama">Ammar</string>
+    <string name="detail_store">Store Bekasi</string>
+    <string name="detail_pesanan">Pizza Paperoni</string>
+    <string name="detail_kirim">"Opsi Pengiriman: "</string>
+    <string name="ambil_sendiri">Pickup Sendiri</string>
+    <string name="antar">Fast Delivery</string>
+</resources>

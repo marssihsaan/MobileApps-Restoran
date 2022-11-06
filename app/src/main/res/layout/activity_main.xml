@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/pizzah"
+        android:layout_width="366dp"
+        android:layout_height="278dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="60dp"
+        android:background="#fff"
+        android:src="@drawable/strore"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="-3dp" />
+
+    <TextView
+        android:id="@+id/text_toko"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        android:textSize="16dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/name_label_text"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textColor="#733F0E"
+        app:layout_constraintTop_toBottomOf="@+id/pizzah"   />
+
+    <Spinner
+        android:id="@+id/spinner_toko"
+        android:layout_width="317dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintTop_toBottomOf="@id/text_toko"
+        tools:layout_editor_absoluteX="24dp" />
+
+    <TextView
+        android:id="@+id/text_nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/nama_text"
+        android:textColor="#733F0E"
+        android:textSize="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinner_toko" />
+
+    <EditText
+        android:id="@+id/kolom_nama"
+        android:layout_width="306dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="@string/enter_name_hint"
+        android:inputType="textPersonName"
+        app:layout_constraintTop_toBottomOf="@id/text_nama"
+        tools:layout_editor_absoluteX="24dp" />
+
+    <Button
+        android:id="@+id/first_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Cari"
+        app:layout_constraintTop_toBottomOf="@+id/kolom_nama"
+        tools:layout_editor_absoluteX="0dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

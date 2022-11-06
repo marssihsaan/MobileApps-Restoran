@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main5Activity">
+
+    <TextView
+        android:id="@+id/detail_order"
+        android:layout_width="128dp"
+        android:layout_height="37dp"
+        android:text="@string/detail_order"
+        android:textColor="#733F0E"
+        android:textSize="18dp"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/detail_nama"
+        android:layout_width="128dp"
+        android:layout_height="37dp"
+        android:text="@string/detail_nama"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        app:layout_constraintTop_toBottomOf="@+id/detail_order"
+        tools:layout_editor_absoluteX="40dp" />
+
+    <TextView
+        android:id="@+id/detail_store"
+        android:layout_width="128dp"
+        android:layout_height="37dp"
+        android:text="@string/detail_store"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        app:layout_constraintTop_toBottomOf="@+id/detail_nama"
+        tools:layout_editor_absoluteX="40dp" />
+
+    <TextView
+        android:id="@+id/detail_pesanan"
+        android:layout_width="128dp"
+        android:layout_height="37dp"
+        android:text="@string/detail_pesanan"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        app:layout_constraintTop_toBottomOf="@+id/detail_store"
+        tools:layout_editor_absoluteX="40dp" />
+
+    <TextView
+        android:id="@+id/detail_kirim"
+        android:layout_width="142dp"
+        android:layout_height="46dp"
+        android:text="@string/detail_kirim"
+        android:textColor="#733F0E"
+        android:textSize="18dp"
+        app:layout_constraintTop_toBottomOf="@+id/detail_pesanan"
+        tools:layout_editor_absoluteX="40dp" />
+
+    <CheckBox
+        android:id="@+id/cbpick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="@string/ambil_sendiri"
+        app:layout_constraintTop_toBottomOf="@+id/detail_pesanan"
+        tools:layout_editor_absoluteX="40dp" />
+
+    <CheckBox
+        android:id="@+id/cbdel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="@string/antar"
+        app:layout_constraintTop_toBottomOf="@+id/cbpick"
+        tools:layout_editor_absoluteX="40dp" />
+
+    <Button
+        android:id="@+id/btn_order"
+        android:layout_width="367dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="20dp"
+        android:text="Done"
+        app:layout_constraintTop_toBottomOf="@+id/cbdel"
+        tools:layout_editor_absoluteX="28dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

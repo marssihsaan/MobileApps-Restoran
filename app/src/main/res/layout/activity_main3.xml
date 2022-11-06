@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main3Activity">
+
+    <ImageView
+        android:id="@+id/img_user2"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="14dp"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/user"
+        android:layout_marginTop="-13dp"
+        android:background="#fff"   />
+
+    <TextView
+        android:id="@+id/user_nameloro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:text="@string/user_nameloro"
+        app:layout_constraintRight_toLeftOf="@+id/img_user2"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageView
+        android:id="@+id/img_pza"
+        android:layout_width="99dp"
+        android:layout_height="107dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/pza"
+        app:layout_constraintTop_toBottomOf="@+id/img_user2"
+        tools:layout_editor_absoluteX="5dp" />
+
+    <TextView
+        android:id="@+id/title_menu1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="20dp"
+        android:gravity="top"
+        android:text="@string/title_menu1"
+        android:textSize="15dp"
+        app:layout_constraintLeft_toRightOf="@+id/img_pza"
+        app:layout_constraintTop_toBottomOf="@+id/img_user2" />
+
+    <TextView
+        android:id="@+id/isi_menu1"
+        android:layout_width="242dp"
+        android:layout_height="61dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="13dp"
+        android:text="@string/isi_menu1"
+        android:textSize="12dp"
+        app:layout_constraintLeft_toRightOf="@+id/img_pza"
+        app:layout_constraintTop_toBottomOf="@+id/title_menu1" />
+
+    <ImageView
+        android:id="@+id/img_pageti"
+        android:layout_width="104dp"
+        android:layout_height="104dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/pageti"
+        app:layout_constraintTop_toBottomOf="@+id/img_pza"
+        tools:layout_editor_absoluteX="5dp" />
+
+    <TextView
+        android:id="@+id/title_menu2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="36dp"
+        android:gravity="top"
+        android:text="@string/title_menu2"
+        android:textSize="15dp"
+        app:layout_constraintLeft_toRightOf="@+id/img_pageti"
+        app:layout_constraintTop_toBottomOf="@+id/isi_menu1" />
+
+    <TextView
+        android:id="@+id/isi_menu2"
+        android:layout_width="242dp"
+        android:layout_height="61dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="13dp"
+        android:text="@string/isi_menu2"
+        android:textSize="12dp"
+        app:layout_constraintLeft_toRightOf="@+id/img_pageti"
+        app:layout_constraintTop_toBottomOf="@+id/title_menu2"  />
+
+    <ImageView
+        android:id="@+id/img_burgir"
+        android:layout_width="100dp"
+        android:layout_height="110dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/burgir"
+        app:layout_constraintTop_toBottomOf="@+id/img_pageti"
+        tools:layout_editor_absoluteX="7dp" />
+
+    <TextView
+        android:id="@+id/title_menu3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="32dp"
+        android:gravity="top"
+        android:text="@string/title_menu3"
+        android:textSize="13dp"
+        app:layout_constraintLeft_toRightOf="@+id/img_burgir"
+        app:layout_constraintTop_toBottomOf="@+id/isi_menu2" />
+
+    <TextView
+        android:id="@+id/isi_menu3"
+        android:layout_width="242dp"
+        android:layout_height="61dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="13dp"
+        android:text="@string/isi_menu3"
+        android:textSize="12dp"
+        app:layout_constraintLeft_toRightOf="@+id/img_burgir"
+        app:layout_constraintTop_toBottomOf="@+id/title_menu3"  />
+
+    <ImageView
+        android:id="@+id/img_stik"
+        android:layout_width="102dp"
+        android:layout_height="108dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/stik"
+        app:layout_constraintTop_toBottomOf="@+id/img_burgir"
+        tools:layout_editor_absoluteX="5dp" />
+
+    <TextView
+        android:id="@+id/title_menu4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="44dp"
+        android:gravity="top"
+        android:text="@string/title_menu4"
+        android:textSize="15dp"
+        app:layout_constraintLeft_toRightOf="@+id/img_stik"
+        app:layout_constraintTop_toBottomOf="@+id/isi_menu3" />
+
+    <TextView
+        android:id="@+id/isi_menu4"
+        android:layout_width="242dp"
+        android:layout_height="61dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/isi_menu4"
+        android:textSize="13dp"
+        app:layout_constraintLeft_toRightOf="@+id/img_stik"
+        app:layout_constraintTop_toBottomOf="@+id/title_menu4"  />
+
+    <Button
+        android:id="@+id/third_button"
+        android:layout_width="92dp"
+        android:layout_height="44dp"
+        android:layout_marginLeft="152dp"
+        android:layout_marginTop="60dp"
+        android:text="Pilih"
+        app:layout_constraintLeft_toRightOf="@+id/img_stik"
+        app:layout_constraintTop_toBottomOf="@id/isi_menu4" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
